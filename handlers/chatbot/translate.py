@@ -525,22 +525,22 @@ async def get_datas(msg: types.Message, state: FSMContext):
     btn.adjust(1)
     # check = is_fetch_limit_reached(msg.from_user.id)
     # if not check:
-    data = db.get_user_fetch_count_new(user_id=msg.from_user.id)
-    if data[0] == 0:
-        webapp_url = await random_webapp_url(msg.from_user.id)
-        # btn = InlineKeyboardBuilder()
-        # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
-        # await msg.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
-        btn = InlineKeyboardBuilder()
-        btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
-        btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
-        btn.adjust(1)
-        await msg.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
-        db.update_user_fetch_new(user_id=msg.chat.id)
-        db.add_chat(user_id=msg.chat.id, _text=res, action="translate2",   _state=f'{_("best_ai_bot")} {_("back_to_main_menu_other")}')
-        db.delete_all_except_last_chat(msg.chat.id)
-        await state.set_state(LanguageState.text)
-        return
+    # data = db.get_user_fetch_count_new(user_id=msg.from_user.id)
+    # if data[0] == 0:
+    #     webapp_url = await random_webapp_url(msg.from_user.id)
+    #     # btn = InlineKeyboardBuilder()
+    #     # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
+    #     # await msg.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
+    #     btn = InlineKeyboardBuilder()
+    #     btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
+    #     btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
+    #     btn.adjust(1)
+    #     await msg.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
+    #     db.update_user_fetch_new(user_id=msg.chat.id)
+    #     db.add_chat(user_id=msg.chat.id, _text=res, action="translate2",   _state=f'{_("best_ai_bot")} {_("back_to_main_menu_other")}')
+    #     db.delete_all_except_last_chat(msg.chat.id)
+    #     await state.set_state(LanguageState.text)
+    #     return
     await msg.answer(text=f'{res} \n\n{_("best_ai_bot")}', reply_markup=btn.as_markup())
     await state.set_state(LanguageState.text)
 
