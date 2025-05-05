@@ -277,22 +277,22 @@ async def get_user_info(message: types.Message, state: FSMContext):
                 f.write(audio_bytes.getvalue())            
             # check = is_fetch_limit_reached(message.from_user.id)
             # if not check:
-            data = db.get_user_fetch_count_new(user_id=message.from_user.id)
-            if data[0] == 0:
-                # webapp_url = await random_webapp_url(message.from_user.id)
-                # btn = InlineKeyboardBuilder()
-                # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
-                # await message.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
-                btn = InlineKeyboardBuilder()
-                btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
-                btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
-                btn.adjust(1)
-                await message.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
-                db.update_user_fetch_new(user_id=message.chat.id)
-                db.add_chat(user_id=message.chat.id, voice=file_path, action="voice",  _state=f'{_("best_ai_bot")} {_("back_to_main_menu_other")}')
-                db.delete_all_except_last_chat(message.chat.id)
-                await state.set_state(Text_To_Voice.voice)
-                return
+            # data = db.get_user_fetch_count_new(user_id=message.from_user.id)
+            # if data[0] == 0:
+            #     # webapp_url = await random_webapp_url(message.from_user.id)
+            #     # btn = InlineKeyboardBuilder()
+            #     # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
+            #     # await message.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
+            #     btn = InlineKeyboardBuilder()
+            #     btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
+            #     btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
+            #     btn.adjust(1)
+            #     await message.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
+            #     db.update_user_fetch_new(user_id=message.chat.id)
+            #     db.add_chat(user_id=message.chat.id, voice=file_path, action="voice",  _state=f'{_("best_ai_bot")} {_("back_to_main_menu_other")}')
+            #     db.delete_all_except_last_chat(message.chat.id)
+            #     await state.set_state(Text_To_Voice.voice)
+            #     return
             
             await message.reply_voice(voice=voice, caption=f'\n\n{_("best_ai_bot")}', reply_markup=button.as_markup())
             await state.set_state(Text_To_Voice.voice)

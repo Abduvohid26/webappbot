@@ -257,21 +257,21 @@ async def translate_message(message: types.Message, state: FSMContext):
         translated_text_ = await translate_text(f"Quyidagi matnni {lang} tiliga tarjima qil: \n\n{user_text}")
         # check = is_fetch_limit_reached(message.from_user.id)
         # if not check:
-        data = db.get_user_fetch_count_new(user_id=message.from_user.id)
-        if data[0] == 0:
-            # webapp_url = await random_webapp_url(message.from_user.id)
-            # btn = InlineKeyboardBuilder()
-            # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
-            # await message.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
-            btn = InlineKeyboardBuilder()
-            btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
-            btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
-            btn.adjust(1)
-            await message.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
-            db.update_user_fetch_new(user_id=message.chat.id)
-            db.add_chat(user_id=message.chat.id, _text=translated_text_, action="translate1")
-            db.delete_all_except_last_chat(message.chat.id)
-            return
+        # data = db.get_user_fetch_count_new(user_id=message.from_user.id)
+        # if data[0] == 0:
+        #     # webapp_url = await random_webapp_url(message.from_user.id)
+        #     # btn = InlineKeyboardBuilder()
+        #     # btn.button(text=_("get_answer_button"), web_app=WebAppInfo(url=webapp_url))
+        #     # await message.answer(text=_("press_button_to_get_answer"), reply_markup=btn.as_markup())
+        #     btn = InlineKeyboardBuilder()
+        #     btn.button(text=_("👥 Do'st taklif qilish"), callback_data="referal_offer")
+        #     btn.button(text=_("back_to_main_menu"), callback_data="back_to_main_menu_other")
+        #     btn.adjust(1)
+        #     await message.answer(text=_("Bepul limit olish uchun dostingiz taklif qiling"), reply_markup=btn.as_markup())
+        #     db.update_user_fetch_new(user_id=message.chat.id)
+        #     db.add_chat(user_id=message.chat.id, _text=translated_text_, action="translate1")
+        #     db.delete_all_except_last_chat(message.chat.id)
+        #     return
         await message.answer(f'({lang_name}):\n{translated_text_} \n\n{_("best_ai_bot")}', reply_markup=btn.as_markup())
 
         return
