@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-19 12:51+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: core/settings.py:180
+msgid "English"
+msgstr ""
+
+
+
+msgid "start_message"
+msgstr "👋 Hello, {name}!\n\nWelcome to BestAI bot! 😊\nHow can I assist you today? 🤖💬"
+
+
+# handlars/users/language.py 30
+msgid "change_lang"
+msgstr "Select language"
+
+
+#main menu
+msgid "🗣 Voice to Text"
+msgstr "🗣 Voice to Text"
+
+msgid "📝 Text to Voice"
+msgstr "📝 Text to Voice"
+
+msgid "🏞 Image Analyze"
+msgstr "🏞 Image Analyze"
+
+msgid "📁 Document Q&A "
+msgstr "📁 Document Q&A "
+
+msgid "📱 Text summarization"
+msgstr "📱 Text summarization"
+
+msgid "♻️ Translate"
+msgstr "♻️ Translate"
+
+msgid "🗣 Voice Translate"
+msgstr "🗣 Voice Translate"
+
+msgid "📹 Video translate"
+msgstr "📹 Video translate"
+
+msgid "🌍 Change Language"
+msgstr "🌍 Change Language"
+
+msgid "🤖  AI Assistant"
+msgstr "🤖  AI Assistant"
+
+# voice to text
+msgid "voice_to_text"
+msgstr "Send me a voice message, and I will convert it to text"
+
+
+# back buttons
+msgid "back_to_main_menu"
+msgstr "↩️ Return to the main menu"
+
+# main menu
+msgid "main_menu"
+msgstr "⚙️ Main Menu"
+
+
+# web app
+msgid "voice_processing"
+msgstr "Converting voice to text, please wait ⌚️⏳"
+
+msgid "get_answer_button"
+msgstr "📝 Get answer"
+
+msgid "press_button_to_get_answer"
+msgstr "Press the button to get the answer 🔒"
+
+
+msgid "send_voice_again"
+msgstr "Send a voice message again !!!"
+
+msgid "please_send_voice"
+msgstr "Please send a voice message !!!"
+
+
+
+
+msgid "send_text"
+msgstr "Send me a text, I will convert it into a voice message"
+
+msgid "text_to_voice_processing"
+msgstr "Text is being converted to voice, please wait ⌚️⏳"
+
+msgid "send_text_again"
+msgstr "Send the text again!"
+
+msgid "please_send_text"
+msgstr "Please send a text!"
+
+
+
+
+msgid "send_image"
+msgstr "Send me an image, I will analyze it."
+
+msgid "image_processing"
+msgstr "Image is being analyzed, please wait ⌚️⏳"
+
+msgid "please_send_image"
+msgstr "Please send an image!"
+
+
+
+
+msgid "send_document"
+msgstr "📁 Send a PDF, DOCX, or TXT document!"
+
+msgid "please_send_document"
+msgstr "Please send a document!"
+
+msgid "no_text_found"
+msgstr "No text was found in the document!"
+
+msgid "ask_document_info"
+msgstr "Great! Now write what you need from the document."
+
+msgid "ask_what_needed_from_document"
+msgstr "Please write what you need from the document!"
+
+msgid "document_text_not_found"
+msgstr "Document text not found. Please send the document again."
+
+
+
+
+
+msgid "text_summarization_intro"
+msgstr "📱 Text Summarization – the ability to turn long texts into concise and accurate content\n\n📄 Send the text"
+
+msgid "summarize_text"
+msgstr "Summarize the text ->:"
+
+
+
+
+
+msgid "choose_translation_language"
+msgstr "Which language do you want to translate to? Choose!"
+
+msgid "previous_button"
+msgstr "⬅️ Previous"
+
+msgid "next_button"
+msgstr "Next ➡️"
+
+msgid "send_text_for_translation"
+msgstr "Send the text, and I will translate it into {lang_name}!"
+
+msgid "please_choose_language"
+msgstr "Please select a language"
+
+msgid "send_text_to_translate"
+msgstr "Send text for translation !!!"
+
+msgid "choose_second_language"
+msgstr "Choose the second language!"
+
+
+msgid "change_language_button"
+msgstr "🌐 Change Languages"
+
+msgid "choose_first_language"
+msgstr "Choose the first language!"
+
+msgid "choose_option"
+msgstr "Choose!"
+
+msgid "Now send me the text"
+msgstr "Now send me the text"
+
+
+msgid "send_voice_message"
+msgstr "Send me a voice message !!!"
+
+msgid "choose_language1"
+msgstr "Choose one of the languages !!!"
+
+msgid "language_not_selected"
+msgstr "Language not selected! Please select a language first."
+
+msgid "send_voice_or_audio_message"
+msgstr "Send me a voice or audio message !!!"
+
+
+
+
+msgid "send_video"
+msgstr "🎥 Send a video, I will translate it!"
+
+msgid "video_translating"
+msgstr "⏳ Translating the video, please wait ..."
+
+msgid "video_no_audio"
+msgstr "❌ No audio found in the video! Please send a video in a different format."
+
+msgid "video_error"
+msgstr "❌ An error occurred:\nUnsupported format or\nSend a video without music."
+
+msgid "please_send_video"
+msgstr "Please send a video !!!"
+
+
+msgid "language_changed"
+msgstr "Language successfully changed!"
+
+
+
+
+msgid "please_join_all_channels"
+msgstr "Please join all channels first!"
+
+msgid "check_subscription"
+msgstr "🔄 Check"
+
+
+msgid "salom_message_none"
+msgstr "Assalamu Aleykum {full_name} 👋\nHow can I assist you? 🤖💬\n\nSend me a text or an image, and I will respond ✅✅✅"
+
+
+msgid "best_ai_bot"
+msgstr "@Javohir_aibot"
+
+
+msgid "back_to_main_menu_other"
+msgstr "↩️Return"
+
+msgid "Speakerni Tanlng !!!"
+msgstr "Choose a speaker !!!"
+
+
+msgid "👥 Do'st taklif qilish"
+msgstr "👥 Invite a Friend"
+
+msgid "Bepul limit olish uchun dostingiz taklif qiling"
+msgstr "🔹 Invite a friend to get a free limit! ⚠️ Your free limits have run out. Invite a friend and get 10 free limits for each referral, or purchase Premium!"
+
+
+msgid "Siz taklif qilgan do‘stlar soni:"
+msgstr "The number of friends you have invited:"
+
+msgid "Qolgan bepul limittingiz:"
+msgstr "Remaining free limit:"
+
+msgid "Premuium tarif"
+msgstr "🎁 Premium tariff"
+
+msgid "Sizning referal kodingiz:"
+msgstr "Your referral code:"
+
+msgid "👥 Havolani dostlaringizga yuborib bepul limit oling"
+msgstr "👥 Share this link with your friends and get a free limit! To receive the limit, your friends must join the bot using this exact link."

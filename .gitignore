@@ -1,0 +1,7 @@
+venv
+__pycache__
+.idea
+data/main.db
+bot.log
+.env.dev
+.env

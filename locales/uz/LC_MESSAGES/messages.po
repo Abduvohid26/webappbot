@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-19 12:51+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: core/settings.py:180
+msgid "English"
+msgstr ""
+
+
+
+# handlars/users/start.py
+msgid "start_message"
+msgstr "👋 Assalomu alaykum, {name}!\n\nSizni BestAI botida ko‘rib turganimizdan xursandmiz! 😊\nSizga qanday yordam bera olaman? 🤖💬"
+
+
+# handlars/users/language.py 30
+msgid "change_lang"
+msgstr "Tilni Tanlang"
+
+# main menus
+msgid "🗣 Voice to Text"
+msgstr "🗣 Ovozni matnga aylantirish"
+
+msgid "📝 Text to Voice"
+msgstr "📝 Matnni ovozga aylantirish"
+
+msgid "🏞 Image Analyze"
+msgstr "🏞 Tasvirni tahlil qilish"
+
+msgid "📁 Document Q&A "
+msgstr "📁 Hujjatga oid"
+
+msgid "📱 Text summarization"
+msgstr "📱 Matnni qisqacha bayon qilish"
+
+msgid "♻️ Translate"
+msgstr "♻️ Tarjima qilish"
+
+msgid "🗣 Voice Translate"
+msgstr "🗣 Ovozni tarjima qilish"
+
+msgid "📹 Video translate"
+msgstr "📹 Video tarjima"
+
+msgid "🌍 Change Language"
+msgstr "🌍 Til o‘zgartirish"
+
+msgid "🤖  AI Assistant"
+msgstr "🤖  AI yordamchisi"
+
+# voice to text
+msgid "voice_to_text"
+msgstr "Menga ovozli xabar yuboring, uni matnga aylantirib beraman"
+
+# back buttons
+msgid "back_to_main_menu"
+msgstr "↩️ Asosiy menyuga qaytish"
+
+msgid "back_to_main_menu_other"
+msgstr "↩️Asosiy"
+
+# main menu
+msgid "main_menu"
+msgstr "⚙️ Asosiy Menu"
+
+# web app
+msgid "voice_processing"
+msgstr "Ovoz matnga o'zgartirilmoqda, kuting ⌚️⏳"
+
+msgid "get_answer_button"
+msgstr "📝 Javobni olish"
+
+msgid "press_button_to_get_answer"
+msgstr "Javobni olish uchun tugmani bosing 🔒"
+
+# voice to text
+
+msgid "send_voice_again"
+msgstr "Qaytadan ovozli xabar yuboring !!!"
+
+msgid "please_send_voice"
+msgstr "Iltimos, ovozli xabar yuboring !!!"
+
+
+
+#text to voice
+msgid "send_text"
+msgstr "Menga matn yuboring, uni ovozli xabarga aylantirib beraman"
+
+msgid "text_to_voice_processing"
+msgstr "Matn ovozga aylantirilmoqda, kuting ⌚️⏳"
+
+msgid "send_text_again"
+msgstr "Qaytadan matn yuboring!"
+
+msgid "please_send_text"
+msgstr "Iltimos, matn yuboring!"
+
+
+# image analayze
+msgid "send_image"
+msgstr "Menga rasm yuboring, uni tahlil qilib beraman."
+
+msgid "image_processing"
+msgstr "Rasm tahlil qilinmoqda, kuting ⌚️⏳"
+
+msgid "please_send_image"
+msgstr "Iltimos, rasm yuboring!"
+
+
+
+
+# Document
+msgid "send_document"
+msgstr "📁 PDF, DOCX yoki TXT hujjat yuboring!"
+
+msgid "please_send_document"
+msgstr "Iltimos, hujjat yuboring!"
+
+msgid "no_text_found"
+msgstr "Hujjatda hech qanday matn topilmadi!"
+
+msgid "ask_document_info"
+msgstr "Yaxshi! Endi hujjatdan nima kerakligini yozing."
+
+msgid "ask_what_needed_from_document"
+msgstr "Iltimos, hujjatdan nima kerakligini yozing!"
+
+msgid "document_text_not_found"
+msgstr "Hujjat matni topilmadi. Iltimos, qaytadan hujjat yuboring."
+
+
+
+
+#text summarization
+msgid "text_summarization_intro"
+msgstr "📱 Matnni umumlashtirish – uzoq matnlarni qisqacha va aniq mazmunga aylantirish imkoniyati\n\n📄 Matni yuboring"
+
+msgid "summarize_text"
+msgstr "Matnni umumlashtiring ->:"
+
+
+
+
+
+# translate
+msgid "choose_translation_language"
+msgstr "Qaysi tilga tarjima qilmoqchisiz? Tanlang!"
+
+msgid "previous_button"
+msgstr "⬅️ Oldingi"
+
+msgid "next_button"
+msgstr "Keyingi ➡️"
+
+msgid "send_text_for_translation"
+msgstr "Text yuboring, men uni {lang_name} tiliga tarjima qilib beraman!"
+
+msgid "please_choose_language"
+msgstr "Iltimos biror tilni tanlang"
+
+msgid "send_text_to_translate"
+msgstr "Tarjima qilish uchun text yuboring !!!"
+
+msgid "choose_second_language"
+msgstr "Ikkinchi tilni Tanlang!"
+
+
+msgid "change_language_button"
+msgstr "🌐 Tillarni o'zgartirish"
+
+msgid "choose_first_language"
+msgstr "Birinchi tilni Tanlang!"
+
+msgid "choose_option"
+msgstr "Tanlang !"
+
+msgid "Now send me the text"
+msgstr "Endi menga matn yuboring"
+
+
+
+msgid "send_voice_message"
+msgstr "Menga ovozli xabar yuboring !!!"
+
+msgid "choose_language1"
+msgstr "Tillardan birini tanlang !!!"
+
+msgid "language_not_selected"
+msgstr "Til tanlanmagan! Iltimos, avval tilni tanlang."
+
+msgid "send_voice_or_audio_message"
+msgstr "Menga ovozli yoki audio xabar yuboring !!!"
+
+
+
+
+msgid "send_video"
+msgstr "🎥 Video yuboring, men uni tarjima qilib beraman!"
+
+msgid "video_translating"
+msgstr "⏳ Videodan translate qilinmoqda kuting ..."
+
+msgid "video_no_audio"
+msgstr "❌ Videodan audio olinmadi! Iltimos, boshqa formatdagi video yuboring."
+
+msgid "video_error"
+msgstr "❌ Xatolik yuz berdi:\nQo‘llab-quvvatlanmaydigan format yoki\nMusiqasiz video yuboring."
+
+msgid "please_send_video"
+msgstr "Iltimos, video yuboring !!!"
+
+
+msgid "language_changed"
+msgstr "Til muvaffaqiyatli o‘zgartirildi!"
+
+
+
+msgid "please_join_all_channels"
+msgstr "Iltimos, avval barcha kanallarga a’zo bo‘ling!"
+
+msgid "check_subscription"
+msgstr "🔄 Tekshirish"
+
+
+msgid "salom_message_none"
+msgstr "Assalamu Aleykum {full_name} 👋\nSizga qanday yordam bera olishim mumkin? 🤖💬\n\nMenga text yoki rasm yuboring sizga javob beraman ✅✅✅"
+
+
+msgid "best_ai_bot"
+msgstr "@Javohir_aibot"
+
+
+msgid "Speakerni Tanlng !!!"
+msgstr "Speakerni tanlang !!!"
+
+
+msgid "👥 Do'st taklif qilish"
+msgstr "👥 Do'st taklif qilish"
+
+msgid "Bepul limit olish uchun dostingiz taklif qiling"
+msgstr "🔹 Bepul limit olish uchun do‘stingizni taklif qiling! ⚠️ Sizning bepul limitlaringiz tugadi. Yangi limit olish uchun do‘stingizni taklif qiling va har bir taklif uchun 10 ta bepul limitga ega bo‘ling yoki Premium sotib oling!"
+
+
+msgid "Siz taklif qilgan do‘stlar soni:"
+msgstr "Siz taklif qilgan do‘stlar soni:"
+
+msgid "Qolgan bepul limittingiz:"
+msgstr "Qolgan bepul limittingiz:"
+
+msgid "Premuium tarif"
+msgstr "🎁 Premuium tarif"
+
+msgid "Sizning referal kodingiz:"
+msgstr "Sizning referal kodingiz:"
+
+msgid "👥 Havolani dostlaringizga yuborib bepul limit oling"
+msgstr "👥 Do‘stlaringiz bilan ushbu havolani ulashing va bepul limitga ega bo‘ling! \n Limit olish uchun do‘stlaringiz aynan shu havola orqali botga qo‘shilishi kerak."
+
+
+
